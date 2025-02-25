@@ -13,6 +13,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  scroll-behavior: smooth;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 /* * {
@@ -21,14 +22,14 @@
 
 .big-title {
   justify-self: start;
-  color: var(--heading-color, #ffc2e6);
+  color: var(--heading-color, #0053ff);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0px var(--accent-color, #ff8dcb);
+  text-shadow: 4px 4px 0px var(--accent-color, #090809);
 }
 .big-title-second {
   justify-self: end;
-  color: var(--heading-color, #ffc2e6);
+  color: var(--heading-color, #0053ff);
   font-size: clamp(5.25rem, 5.0115rem + 1.0178vw, 5.5rem);
   line-height: 82.5%;
   /* text-shadow: 4px 4px 0px var(--accent-color, #ff8dcb); */
@@ -44,21 +45,22 @@
 .light-title {
   margin-block: 55px;
   margin-top: 0%;
-  color: var(--change-color3, #353430);
+  color: var(--change-color3, #ffffff);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
-  background: var(--accent-color, #ff0070);
+  /* background: var(--accent-color, #ff0070); */
+  background: var(--accent-color, #0053ff);
 }
 .light-title-test {
   margin: 0;
   /* margin-block: 55px; */
   /* margin-top: 0%; */
-  color: var(--change-color3, #353430);
+  color: var(--change-color3, #ffffff);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
-  background: var(--accent-color, #ff0070);
+  background: var(--accent-color, #0053ff);
 }
 .article-contacts {
   display: grid;
@@ -126,7 +128,7 @@
   display: inline-block;
   border-radius: 50%;
   box-shadow: 0 0 2px 2px var(--change-color, #ff0070);
-  background: var(--change-color, #ff0070);
+  background: var(--change-color, #0053ff);
   inline-size: 9px;
   block-size: 9px;
 }
@@ -220,8 +222,8 @@
 }
 
 .section-title-decor {
-  color: var(--change-color3, #353430);
-  background: var(--accent-color, #ff0070);
+  color: var(--change-color3, #ffffff);
+  background: var(--accent-color, #0053ff);
 }
 
 .section-title-how {
